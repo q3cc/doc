@@ -8,11 +8,11 @@ hero:
   tagline: 奇变偶不变，符号看象限。
 
   actions:
-    - theme: alt
-      text: Play
+    - theme: brand
+      text: 游玩
       link: https://qm.qq.com/q/NIJ2twMkEw
     - theme: alt
-      text: More
+      text: 更多
       link: /more
 
 ---
@@ -34,6 +34,9 @@ const members = [
     name: '_abcccc',
     title: '服主',
     description: '偶尔处理与服务器相关的事情',
+    links: [
+      { icon: 'github', link: 'https://github.com/aboci-abcccc' }
+    ]
   },
   {
     avatar: 'https://q.qlogo.cn/g?b=qq&nk=3631969173&s=640',

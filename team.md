@@ -23,6 +23,9 @@ const members = [
     name: '_abcccc',
     title: '服主',
     description: '偶尔处理与服务器相关的事情',
+    links: [
+      { icon: 'github', link: 'https://github.com/aboci-abcccc' }
+    ]
   },
   {
     avatar: 'https://q.qlogo.cn/g?b=qq&nk=3631969173&s=640',

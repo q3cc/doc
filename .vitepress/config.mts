@@ -9,17 +9,17 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'index', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '更多', link: '/more' }
     ],
 
     logo: {
-      light: '/public/logo_light.png', // 浅色主题 Logo 路径
-      dark: '/public/logo_dark.png', // 深色主题 Logo 路径
+      light: '/public/logo_light.svg', // 浅色主题 Logo 路径
+      dark: '/public/logo_dark.svg', // 深色主题 Logo 路径
     },
 
     footer: {
-      message: '萌ICP备20234616号',
+      message: '<a href="https://icp.gov.moe/?keyword=20234616" target="_blank">萌ICP备20234616号</a>',
       copyright: 'Copyright © 2022-2025 StarCity'
     },
 
@@ -27,9 +27,9 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'More', link: '/more'}
+          { text: '更多', link: '/more'},
+          { text: 'FAQ', link: '/faq'},
+          { text: '团队页', link: '/team'},
         ]
       }
     ],
