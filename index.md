@@ -6,7 +6,9 @@ hero:
   name: "StarCity"
   text: "多平台空岛服务器"
   tagline: 奇变偶不变，符号看象限。
-
+  image:
+    src: /logo/logo_light.svg
+    alt: logo
   actions:
     - theme: brand
       text: 游玩

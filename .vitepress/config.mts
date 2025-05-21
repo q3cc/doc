@@ -6,6 +6,7 @@ export default defineConfig({
   description: "StarCity | 多平台空岛服务器",
   cleanUrls: true, // 生成清洁URL（如将`.html`后缀隐藏）
   appearance: true, // 启用主题切换（浅色/深色模式）
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -14,8 +15,8 @@ export default defineConfig({
     ],
 
     logo: {
-      light: '/public/logo_light.svg', // 浅色主题 Logo 路径
-      dark: '/public/logo_dark.svg', // 深色主题 Logo 路径
+      light: '/public/logo/logo_light.svg', // 浅色主题 Logo 路径
+      dark: '/public/logo/logo_dark.svg', // 深色主题 Logo 路径
     },
 
     footer: {
@@ -39,5 +40,3 @@ export default defineConfig({
     ]
   }
 })
-
-

@@ -118,6 +118,11 @@
   }
 }
 
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #1046db, #32e7ff);
+}
+
 /**
  * Component: Custom Block
  * -------------------------------------------------------------------------- */
