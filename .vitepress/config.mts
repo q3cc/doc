@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import vitepressProtectPlugin from "vitepress-protect-plugin"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,6 +8,15 @@ export default defineConfig({
   cleanUrls: true, // 生成清洁URL（如将`.html`后缀隐藏）
   appearance: true, // 启用主题切换（浅色/深色模式）
   lastUpdated: true,
+  vite: {
+    plugins: [
+      vitepressProtectPlugin({
+        disableF12: true, // 禁用F12开发者模式
+        disableCopy: false, // 禁用文本复制
+        disableSelect: false, // 禁用文本选择
+      }),
+    ],
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -26,9 +36,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '更多',
         items: [
-          { text: '更多', link: '/more'},
+          { text: '服务器信息', link: '/more'},
           { text: 'FAQ', link: '/faq'},
           { text: '团队页', link: '/team'},
         ]
