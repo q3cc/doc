@@ -23,6 +23,10 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '更多', link: '/more' }
     ],
+    
+    search: {
+      provider: 'local'
+    },
 
     logo: {
       light: '/public/logo/logo_light.svg', // 浅色主题 Logo 路径
