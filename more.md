@@ -25,56 +25,46 @@
 
 这是我们的国际基岩版服务器，一般情况下，它同步国际版的最新版本，先行玩法版本的测试将会优先在这里发布。这个服务器的性能配置相较于网易服务器更高，但日活极低，更适合生电玩家和建筑玩家游玩。
 
-<!-- # Ink 服务器状态
+# Ink 服务器状态
 
 <div id="minecraft-server-checker"></div>
 
+<!-- 关键：使用客户端条件判断包裹脚本 -->
 <script>
-// 确保只在浏览器环境执行
+// 确保只在浏览器环境执行（避免 SSR 阶段报错）
 if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-  // 动态加载脚本
-  const script = document.createElement('script')
-  script.src = 'https://craftblockht6x.github.io/minecraft-server-checker.js'
+  const script = document.createElement('script');
+  script.src = 'https://craftblockht6x.github.io/minecraft-server-checker.js';
   script.onload = () => {
     initMinecraftServerChecker({
       containerId: 'minecraft-server-checker',
       defaultServers: [
-      { address: "StarCity.ink:19132" }, // 示例服务器
-      // { address: "另一服务器地址：端口" }
-    ],
-    
-    // 显示设置（控制显示哪些信息）
-    displaySettings: {
-      motd: true,       // 服务器公告
-      version: true,    // 游戏版本
-      players: true,    // 玩家数量
-      gamemode: true,   // 游戏模式
-      edition: true,    // 版本类型
-      software: true,   // 服务器软件
-      plugins: true,    // 插件列表
-      delay: true       // 延迟信息
-    },
-    
-    // 其他配置
-    allowUserInput: false,     // 是否允许用户输入新服务器
-    refreshInterval: 5000,     // 刷新间隔（毫秒）
-    showAdvancedOptions: true, // 显示高级选项
-    
-    // 自定义主题（可选）
-    theme: {
-      cardBackgroundColor: '#2c3e50',
-      textColor: '#ffffff',
-      primaryColor: '#3498db',
-      secondaryColor: '#95a5a6',
-      successColor: '#2ecc71',
-      warningColor: '#f39c12',
-      errorColor: '#e74c3c'
-    }
-  });
-};
+        { address: "starcity.ink:19132" }, // 注意：地址格式为 "主机：端口"
+      ],
+      displaySettings: {
+        motd: true,
+        version: true,
+        players: true,
+        gamemode: true,
+        edition: true,
+        software: true,
+        plugins: true,
+        delay: true
+      },
+      allowUserInput: false,
+      refreshInterval: 5000,
+      theme: {
+        cardBackgroundColor: '#2c3e50',
+        textColor: '#ffffff',
+        primaryColor: '#3498db',
+        successColor: '#2ecc71',
+        errorColor: '#e74c3c'
+      }
+    });
+  };
+  document.head.appendChild(script);
 }
-document.head.appendChild(script);
-</script> -->
+</script>
 
 # 服务器介绍
 
