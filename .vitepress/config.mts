@@ -29,8 +29,8 @@ export default defineConfig({
     },
 
     logo: {
-      light: '/public/logo/logo_light.svg', // 浅色主题 Logo 路径
-      dark: '/public/logo/logo_dark.svg', // 深色主题 Logo 路径
+      light: '/logo/logo_light.svg', // 浅色主题 Logo 路径
+      dark: '/logo/logo_dark.svg', // 深色主题 Logo 路径
     },
 
     footer: {

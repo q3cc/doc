@@ -27,44 +27,7 @@
 
 # Ink 服务器状态
 
-<div id="minecraft-server-checker"></div>
-
-<!-- 关键：使用客户端条件判断包裹脚本 -->
-<script>
-// 确保只在浏览器环境执行（避免 SSR 阶段报错）
-if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-  const script = document.createElement('script');
-  script.src = 'https://craftblockht6x.github.io/minecraft-server-checker.js';
-  script.onload = () => {
-    initMinecraftServerChecker({
-      containerId: 'minecraft-server-checker',
-      defaultServers: [
-        { address: "starcity.ink:19132" }, // 注意：地址格式为 "主机：端口"
-      ],
-      displaySettings: {
-        motd: true,
-        version: true,
-        players: true,
-        gamemode: true,
-        edition: true,
-        software: true,
-        plugins: true,
-        delay: true
-      },
-      allowUserInput: false,
-      refreshInterval: 5000,
-      theme: {
-        cardBackgroundColor: '#2c3e50',
-        textColor: '#ffffff',
-        primaryColor: '#3498db',
-        successColor: '#2ecc71',
-        errorColor: '#e74c3c'
-      }
-    });
-  };
-  document.head.appendChild(script);
-}
-</script>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500px" height="195px" scrolling=no src="//motd.imc.re/iframe.html?ip=starcity.ink&port=19132&dark=false"></iframe>
 
 # 服务器介绍
 

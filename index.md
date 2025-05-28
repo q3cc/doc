@@ -7,11 +7,14 @@ hero:
   text: "多平台空岛服务器"
   tagline: 奇变偶不变，符号看象限。
   image:
-    src: /public/logo/logo_light.svg
+    src: /logo/logo_light.svg
     alt: logo
   actions:
     - theme: brand
-      text: 游玩
+      text: Play
+      link: minecraft:?addExternalServer=StarCity%20Ink|StarCity%20Ink|starcity.ink:19132
+    - theme: alt
+      text: 入群
       link: https://qm.qq.com/q/NIJ2twMkEw
     - theme: alt
       text: 更多
