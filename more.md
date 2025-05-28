@@ -30,16 +30,15 @@
 <div id="minecraft-server-checker"></div>
 
 <script>
-// 动态加载脚本
-const script = document.createElement('script');
-script.src = 'https://craftblockht6x.github.io/minecraft-server-checker.js';
-script.onload = () => {
-  // 初始化服务器检查器并传入完整配置
-  initMinecraftServerChecker({
-    containerId: 'minecraft-server-checker', // 容器 ID
-    
-    // 服务器列表（可添加多个服务器）
-    defaultServers: [
+// 确保只在浏览器环境执行
+if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+  // 动态加载脚本
+  const script = document.createElement('script')
+  script.src = 'https://craftblockht6x.github.io/minecraft-server-checker.js'
+  script.onload = () => {
+    initMinecraftServerChecker({
+      containerId: 'minecraft-server-checker',
+      defaultServers: [
       { address: "StarCity.ink:19132" }, // 示例服务器
       // { address: "另一服务器地址：端口" }
     ],
@@ -73,6 +72,7 @@ script.onload = () => {
     }
   });
 };
+}
 document.head.appendChild(script);
 </script>
 
