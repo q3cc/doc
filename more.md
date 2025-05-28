@@ -27,7 +27,7 @@
 
 # Ink 服务器状态
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500px" height="195px" scrolling=no src="//motd.imc.re/iframe.html?ip=starcity.ink&port=19132&dark=false"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500px" height="195px" scrolling=no src="//motd.imc.re/iframe.html?ip=starcity.ink&port=19132&dark=false&join_open=true"></iframe>
 
 # 服务器介绍
 
