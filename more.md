@@ -25,7 +25,7 @@
 
 这是我们的国际基岩版服务器，一般情况下，它同步国际版的最新版本，先行玩法版本的测试将会优先在这里发布。这个服务器的性能配置相较于网易服务器更高，但日活极低，更适合生电玩家和建筑玩家游玩。
 
-# Ink 服务器状态
+<!-- # Ink 服务器状态
 
 <div id="minecraft-server-checker"></div>
 
@@ -74,7 +74,7 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 };
 }
 document.head.appendChild(script);
-</script>
+</script> -->
 
 # 服务器介绍
 
