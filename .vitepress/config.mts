@@ -21,7 +21,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '更多', link: '/more' }
+      { text: '更多', link: '/more' },
+      { text: 'FAQ', link: '/faq' },
     ],
     
     search: {
@@ -45,6 +46,7 @@ export default defineConfig({
           { text: '服务器信息', link: '/more'},
           { text: 'FAQ', link: '/faq'},
           { text: '团队页', link: '/team'},
+          { text: '更新日志', link: '/update'}
         ]
       }
     ],
