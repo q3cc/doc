@@ -142,12 +142,17 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-@font-face {
-  font-family: 'MiSans-Normal';
-  src: url('/fonts/MiSans-Normal.woff2') format('woff2'),
-  url('/fonts/MiSans-Normal.woff2') format('woff');
-  }
-  
-  body {
-  font-family: 'MiSans-Normal', sans-serif;
-  }
+
+@import url('https://fonts.cdnfonts.com/css/mi-sans');
+html,
+body,
+* {
+  font-family: 'Mi Sans', sans-serif;
+  font-weight: 400; /* 常规字体 */
+}
+
+/* 加粗文本 */
+strong,
+b {
+  font-weight: 700; /* 加粗字体 */
+}
