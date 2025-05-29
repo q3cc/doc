@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Play
-      link: minecraft:?addExternalServer=StarCity%20Ink|StarCity%20Ink|starcity.ink:19132
+      link: minecraft:?addExternalServer=StarCity%20Ink|starcity.ink:19132
     - theme: alt
       text: 入群
       link: https://qm.qq.com/q/NIJ2twMkEw
