@@ -26,8 +26,10 @@
 这是我们的国际基岩版服务器，一般情况下，它同步国际版的最新版本，先行玩法版本的测试将会优先在这里发布。这个服务器的性能配置相较于网易服务器更高，但日活极低，更适合生电玩家和建筑玩家游玩。
 
 # Ink 服务器状态
-
+## Ink 生存服务器
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500px" height="195px" scrolling=no src="//motd.imc.re/iframe.html?ip=starcity.ink&port=19132&dark=false&join_open=true"></iframe>
+## Ink 空岛服务器
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500px" height="195px" scrolling=no src="//motd.imc.re/iframe.html?ip=starcity.ink&port=19133&dark=false&join_open=true"></iframe>
 
 # 服务器介绍
 
