@@ -34,5 +34,3 @@
 ### Q3 发现服务器有 Bug 怎么办？
 > 欢迎向我们反馈您发现的问题。请您查看置顶群公告【Bug 反馈信件模板】，并以该模板的格式将举报信件发送至邮箱 [support@starcity.ink](mailto:support@starcity.ink)。
 
-### Q4 想购买称号怎么办？
-> 您可以联系服主来购买称号。目前称号仍然为人工发放，可能需要一段时间。支付时请进入 [shop.q3cc.top](https://shop.q3cc.top)。非常感谢您对我们活动的支持。
