@@ -60,13 +60,9 @@
 
 ## 🏞️ 优秀岛屿展示
 
-![IMG_3267.png](attachment:5f524159-1b81-44f3-8be2-cde4ff0b2c78:IMG_3267.png)
+![优秀建筑作品1](https://s21.ax1x.com/2024/07/07/pkWajWn.jpg)
 
-![IMG_3266.png](attachment:9a80caaa-fd92-4092-b1b4-6ca36d8a3176:IMG_3266.png)
-
-![](https://s21.ax1x.com/2024/07/07/pkWajWn.jpg)
-
-![](https://s21.ax1x.com/2024/07/07/pkWavzq.jpg)
+![优秀建筑作品2](https://s21.ax1x.com/2024/07/07/pkWavzq.jpg)
 
 ---
 
