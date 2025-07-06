@@ -7,7 +7,8 @@ hero:
   text: "多平台空岛服务器"
   tagline: 奇变偶不变，符号看象限。
   image:
-    src: /logo/logo_light.svg
+    light: /logo/logo_light.svg
+    dark: /logo/logo_dark.svg
     alt: logo
   actions:
     - theme: brand
