@@ -1,22 +1,22 @@
 # 【基岩服】StarCity - 空岛 | 纯生存 | 开荒 | 经济 | 娱乐 | 双服 | 不删档 | 公益
 
->服务器名称：StarCity
+>服务器名称：StarCity Ink 
 > 
 > 
->游戏版本：1.21.60-最新版
+>游戏版本：1.21.60 及以上或版本
 > 
->服务器类型：公益服
+>服务器类型：空岛服务器 / 生存服务器
 > 
 >地址：starcity.ink
 > 
->端口：19132 | 19133
+>端口：19132 / 19133
 > 
->官网：[sc.minecraft.website](http://sc.minecraft.website)
+>官网：[www.starcity.ink](http://www.starcity.ink)
 > 
->QQ群：[832240220](https://qm.qq.com/q/z0MIo2piyA)
+>QQ群：[494453644](https://qm.qq.com/q/FIfmpscUk8)
 > 
 
-**本服务器为全公益服务器，仅接受无条件赞助**
+**本服务器为全公益服务器，仅接受无条件赞助。**
 
 加入服务器前，您 **必须** 加入玩家群 **添加白名单**（白名单无需审核）
 
