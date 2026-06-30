@@ -1,0 +1,9 @@
+name: CodeQL config
+
+paths:
+  - .vitepress
+
+paths-ignore:
+  - .vitepress/cache
+  - .vitepress/dist
+  - docs/.vitepress/dist
