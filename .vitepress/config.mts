@@ -36,7 +36,7 @@ export default defineConfig({
 
     footer: {
       message: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">津ICP备2026004483号</a> & <a href="https://icp.gov.moe/?keyword=20234616" target="_blank" rel="noopener noreferrer">萌ICP备20234616号</a>',
-      copyright: 'Copyright © 2022-2025 StarCity'
+      copyright: `Copyright © 2022-${new Date().getFullYear()} StarCity`
     },
 
     sidebar: [
