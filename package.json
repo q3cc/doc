@@ -7,6 +7,7 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
+    "build": "npm run docs:build",
     "docs:preview": "vitepress preview"
   }
 }
