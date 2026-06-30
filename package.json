@@ -2,12 +2,15 @@
   "devDependencies": {
     "vitepress": "^1.6.3",
     "vitepress-protect-plugin": "^1.0.6",
-    "vue" : "^3.4.0"
+    "vue": "^3.4.0",
+    "wrangler": "^4.105.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build --outDir docs/.vitepress/dist",
     "build": "npm run docs:build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "deploy": "npm run docs:build && wrangler deploy",
+    "preview": "npm run docs:build && wrangler dev"
   }
 }
