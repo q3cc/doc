@@ -20,8 +20,8 @@ export default defineConfig({
     },
 
     logo: {
-      light: '/logo/logo_light.svg', // 浅色主题 Logo 路径
-      dark: '/logo/logo_dark.svg', // 深色主题 Logo 路径
+      light: '/logo/starcity_logo_transparent.svg', // 浅色主题 Logo 路径
+      dark: '/logo/starcity_logo_transparent.svg', // 深色主题 Logo 路径
     },
 
     footer: {

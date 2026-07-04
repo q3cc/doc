@@ -7,9 +7,9 @@ hero:
   text: "多平台空岛生存"
   tagline: 奇变偶不变，符号看象限。
   image:
-    light: /logo/logo_light.svg
-    dark: /logo/logo_dark.svg
-    alt: logo
+    light: /logo/starcity_logo_transparent.svg
+    dark: /logo/starcity_logo_transparent.svg
+    alt: StarCity logo
   actions:
     - theme: brand
       text: Play
