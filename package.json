@@ -2,7 +2,7 @@
   "devDependencies": {
     "vitepress": "^1.6.3",
     "vue": "^3.4.0",
-    "wrangler": "^4.105.0"
+    "wrangler": "^4.145.0"
   },
   "overrides": {
     "vite": "^6.4.3",
